@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AB5E63779013A21FEF3EE41 /* Pods_TipagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3165EA8E6EFC9EBDBCC661A3 /* Pods_TipagramUITests.framework */; };
+		372D2C01691358D992E6CD22 /* Pods_Tipagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73C386F7091310F02DB1AA8 /* Pods_Tipagram.framework */; };
+		5B7D16290B015443881B0099 /* Pods_TipagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E90B3C975A9809D540130B8 /* Pods_TipagramTests.framework */; };
+		BF02CE542138204200D5DAEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02CE532138204200D5DAEC /* AppDelegate.swift */; };
+		BF02CE562138204300D5DAEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02CE552138204300D5DAEC /* ViewController.swift */; };
+		BF02CE592138204300D5DAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF02CE572138204300D5DAEC /* Main.storyboard */; };
+		BF02CE5B2138204900D5DAEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF02CE5A2138204900D5DAEC /* Assets.xcassets */; };
+		BF02CE5E2138204900D5DAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF02CE5C2138204900D5DAEC /* LaunchScreen.storyboard */; };
+		BF02CE692138204900D5DAEC /* TipagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02CE682138204900D5DAEC /* TipagramTests.swift */; };
+		BF02CE742138204A00D5DAEC /* TipagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02CE732138204A00D5DAEC /* TipagramUITests.swift */; };
+		BF02CE86213824D500D5DAEC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF02CE85213824D500D5DAEC /* GoogleService-Info.plist */; };
+		BF02CE882139EFF200D5DAEC /* Waiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02CE872139EFF200D5DAEC /* Waiter.swift */; };
+		BF02CE8A2139F10A00D5DAEC /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02CE892139F10900D5DAEC /* Restaurant.swift */; };
+		BF02CE8C2139F19F00D5DAEC /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02CE8B2139F19F00D5DAEC /* Customer.swift */; };
+		BF02CE8E2139F20400D5DAEC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02CE8D2139F20400D5DAEC /* Card.swift */; };
+		BF02CE902139F3ED00D5DAEC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02CE8F2139F3ED00D5DAEC /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF02CE652138204900D5DAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF02CE482138204200D5DAEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF02CE4F2138204200D5DAEC;
+			remoteInfo = Tipagram;
+		};
+		BF02CE702138204A00D5DAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF02CE482138204200D5DAEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF02CE4F2138204200D5DAEC;
+			remoteInfo = Tipagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BD4A62E2EDD97B8FCCFBAF8 /* Pods-TipagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipagramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TipagramUITests/Pods-TipagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3165EA8E6EFC9EBDBCC661A3 /* Pods_TipagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5674E7EF7D2CFE13E9A9A688 /* Pods-TipagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TipagramTests/Pods-TipagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E90B3C975A9809D540130B8 /* Pods_TipagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF885D2C4FCA3B10858C78B /* Pods-TipagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipagramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TipagramUITests/Pods-TipagramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A73C386F7091310F02DB1AA8 /* Pods_Tipagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tipagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCBEF257193F6CC4EE19C5E /* Pods-TipagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipagramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TipagramTests/Pods-TipagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC5741830B4B7F979C31B9F5 /* Pods-Tipagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tipagram/Pods-Tipagram.debug.xcconfig"; sourceTree = "<group>"; };
+		BF02CE502138204200D5DAEC /* Tipagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF02CE532138204200D5DAEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF02CE552138204300D5DAEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF02CE582138204300D5DAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF02CE5A2138204900D5DAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF02CE5D2138204900D5DAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF02CE5F2138204900D5DAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF02CE642138204900D5DAEC /* TipagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF02CE682138204900D5DAEC /* TipagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipagramTests.swift; sourceTree = "<group>"; };
+		BF02CE6A2138204A00D5DAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF02CE6F2138204A00D5DAEC /* TipagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF02CE732138204A00D5DAEC /* TipagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipagramUITests.swift; sourceTree = "<group>"; };
+		BF02CE752138204A00D5DAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF02CE85213824D500D5DAEC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BF02CE872139EFF200D5DAEC /* Waiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waiter.swift; sourceTree = "<group>"; };
+		BF02CE892139F10900D5DAEC /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		BF02CE8B2139F19F00D5DAEC /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		BF02CE8D2139F20400D5DAEC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		BF02CE8F2139F3ED00D5DAEC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F9F705C290DCE9BAAF3859D9 /* Pods-Tipagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tipagram/Pods-Tipagram.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF02CE4D2138204200D5DAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372D2C01691358D992E6CD22 /* Pods_Tipagram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF02CE612138204900D5DAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7D16290B015443881B0099 /* Pods_TipagramTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF02CE6C2138204A00D5DAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB5E63779013A21FEF3EE41 /* Pods_TipagramUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02163705423D8C5E6B863A79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A73C386F7091310F02DB1AA8 /* Pods_Tipagram.framework */,
+				6E90B3C975A9809D540130B8 /* Pods_TipagramTests.framework */,
+				3165EA8E6EFC9EBDBCC661A3 /* Pods_TipagramUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF02CE472138204200D5DAEC = {
+			isa = PBXGroup;
+			children = (
+				BF02CE522138204200D5DAEC /* Tipagram */,
+				BF02CE672138204900D5DAEC /* TipagramTests */,
+				BF02CE722138204A00D5DAEC /* TipagramUITests */,
+				BF02CE512138204200D5DAEC /* Products */,
+				E78E13ABAA8AA37C7D6937DC /* Pods */,
+				02163705423D8C5E6B863A79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF02CE512138204200D5DAEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF02CE502138204200D5DAEC /* Tipagram.app */,
+				BF02CE642138204900D5DAEC /* TipagramTests.xctest */,
+				BF02CE6F2138204A00D5DAEC /* TipagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF02CE522138204200D5DAEC /* Tipagram */ = {
+			isa = PBXGroup;
+			children = (
+				BF02CE532138204200D5DAEC /* AppDelegate.swift */,
+				BF02CE552138204300D5DAEC /* ViewController.swift */,
+				BF02CE572138204300D5DAEC /* Main.storyboard */,
+				BF02CE85213824D500D5DAEC /* GoogleService-Info.plist */,
+				BF02CE5A2138204900D5DAEC /* Assets.xcassets */,
+				BF02CE5C2138204900D5DAEC /* LaunchScreen.storyboard */,
+				BF02CE5F2138204900D5DAEC /* Info.plist */,
+				BF02CE872139EFF200D5DAEC /* Waiter.swift */,
+				BF02CE892139F10900D5DAEC /* Restaurant.swift */,
+				BF02CE8B2139F19F00D5DAEC /* Customer.swift */,
+				BF02CE8F2139F3ED00D5DAEC /* User.swift */,
+				BF02CE8D2139F20400D5DAEC /* Card.swift */,
+			);
+			path = Tipagram;
+			sourceTree = "<group>";
+		};
+		BF02CE672138204900D5DAEC /* TipagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF02CE682138204900D5DAEC /* TipagramTests.swift */,
+				BF02CE6A2138204A00D5DAEC /* Info.plist */,
+			);
+			path = TipagramTests;
+			sourceTree = "<group>";
+		};
+		BF02CE722138204A00D5DAEC /* TipagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF02CE732138204A00D5DAEC /* TipagramUITests.swift */,
+				BF02CE752138204A00D5DAEC /* Info.plist */,
+			);
+			path = TipagramUITests;
+			sourceTree = "<group>";
+		};
+		E78E13ABAA8AA37C7D6937DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC5741830B4B7F979C31B9F5 /* Pods-Tipagram.debug.xcconfig */,
+				F9F705C290DCE9BAAF3859D9 /* Pods-Tipagram.release.xcconfig */,
+				5674E7EF7D2CFE13E9A9A688 /* Pods-TipagramTests.debug.xcconfig */,
+				AFCBEF257193F6CC4EE19C5E /* Pods-TipagramTests.release.xcconfig */,
+				1BD4A62E2EDD97B8FCCFBAF8 /* Pods-TipagramUITests.debug.xcconfig */,
+				9BF885D2C4FCA3B10858C78B /* Pods-TipagramUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF02CE4F2138204200D5DAEC /* Tipagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF02CE782138204A00D5DAEC /* Build configuration list for PBXNativeTarget "Tipagram" */;
+			buildPhases = (
+				2C51993C44FB7953349767B1 /* [CP] Check Pods Manifest.lock */,
+				BF02CE4C2138204200D5DAEC /* Sources */,
+				BF02CE4D2138204200D5DAEC /* Frameworks */,
+				BF02CE4E2138204200D5DAEC /* Resources */,
+				25046C3860DEF23E5DD63CEF /* [CP] Embed Pods Frameworks */,
+				D3F82637DAE267A130CAAC3F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tipagram;
+			productName = Tipagram;
+			productReference = BF02CE502138204200D5DAEC /* Tipagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF02CE632138204900D5DAEC /* TipagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF02CE7B2138204A00D5DAEC /* Build configuration list for PBXNativeTarget "TipagramTests" */;
+			buildPhases = (
+				B7F7EB31F0C1EA9DC7266837 /* [CP] Check Pods Manifest.lock */,
+				BF02CE602138204900D5DAEC /* Sources */,
+				BF02CE612138204900D5DAEC /* Frameworks */,
+				BF02CE622138204900D5DAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF02CE662138204900D5DAEC /* PBXTargetDependency */,
+			);
+			name = TipagramTests;
+			productName = TipagramTests;
+			productReference = BF02CE642138204900D5DAEC /* TipagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF02CE6E2138204A00D5DAEC /* TipagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF02CE7E2138204A00D5DAEC /* Build configuration list for PBXNativeTarget "TipagramUITests" */;
+			buildPhases = (
+				8228F293C05CC3B9235CAEDE /* [CP] Check Pods Manifest.lock */,
+				BF02CE6B2138204A00D5DAEC /* Sources */,
+				BF02CE6C2138204A00D5DAEC /* Frameworks */,
+				BF02CE6D2138204A00D5DAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF02CE712138204A00D5DAEC /* PBXTargetDependency */,
+			);
+			name = TipagramUITests;
+			productName = TipagramUITests;
+			productReference = BF02CE6F2138204A00D5DAEC /* TipagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF02CE482138204200D5DAEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Olivia Corrodi";
+				TargetAttributes = {
+					BF02CE4F2138204200D5DAEC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					BF02CE632138204900D5DAEC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BF02CE4F2138204200D5DAEC;
+					};
+					BF02CE6E2138204A00D5DAEC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BF02CE4F2138204200D5DAEC;
+					};
+				};
+			};
+			buildConfigurationList = BF02CE4B2138204200D5DAEC /* Build configuration list for PBXProject "Tipagram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF02CE472138204200D5DAEC;
+			productRefGroup = BF02CE512138204200D5DAEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF02CE4F2138204200D5DAEC /* Tipagram */,
+				BF02CE632138204900D5DAEC /* TipagramTests */,
+				BF02CE6E2138204A00D5DAEC /* TipagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF02CE4E2138204200D5DAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF02CE5E2138204900D5DAEC /* LaunchScreen.storyboard in Resources */,
+				BF02CE5B2138204900D5DAEC /* Assets.xcassets in Resources */,
+				BF02CE86213824D500D5DAEC /* GoogleService-Info.plist in Resources */,
+				BF02CE592138204300D5DAEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF02CE622138204900D5DAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF02CE6D2138204A00D5DAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25046C3860DEF23E5DD63CEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tipagram/Pods-Tipagram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tipagram/Pods-Tipagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C51993C44FB7953349767B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tipagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8228F293C05CC3B9235CAEDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TipagramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7F7EB31F0C1EA9DC7266837 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TipagramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3F82637DAE267A130CAAC3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tipagram/Pods-Tipagram-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tipagram/Pods-Tipagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF02CE4C2138204200D5DAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF02CE8A2139F10A00D5DAEC /* Restaurant.swift in Sources */,
+				BF02CE8E2139F20400D5DAEC /* Card.swift in Sources */,
+				BF02CE8C2139F19F00D5DAEC /* Customer.swift in Sources */,
+				BF02CE562138204300D5DAEC /* ViewController.swift in Sources */,
+				BF02CE882139EFF200D5DAEC /* Waiter.swift in Sources */,
+				BF02CE542138204200D5DAEC /* AppDelegate.swift in Sources */,
+				BF02CE902139F3ED00D5DAEC /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF02CE602138204900D5DAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF02CE692138204900D5DAEC /* TipagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF02CE6B2138204A00D5DAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF02CE742138204A00D5DAEC /* TipagramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF02CE662138204900D5DAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF02CE4F2138204200D5DAEC /* Tipagram */;
+			targetProxy = BF02CE652138204900D5DAEC /* PBXContainerItemProxy */;
+		};
+		BF02CE712138204A00D5DAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF02CE4F2138204200D5DAEC /* Tipagram */;
+			targetProxy = BF02CE702138204A00D5DAEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF02CE572138204300D5DAEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF02CE582138204300D5DAEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF02CE5C2138204900D5DAEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF02CE5D2138204900D5DAEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF02CE762138204A00D5DAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF02CE772138204A00D5DAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF02CE792138204A00D5DAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC5741830B4B7F979C31B9F5 /* Pods-Tipagram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H25GX37P8;
+				INFOPLIST_FILE = Tipagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PMA.Tipagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF02CE7A2138204A00D5DAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F705C290DCE9BAAF3859D9 /* Pods-Tipagram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H25GX37P8;
+				INFOPLIST_FILE = Tipagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PMA.Tipagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF02CE7C2138204A00D5DAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5674E7EF7D2CFE13E9A9A688 /* Pods-TipagramTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TipagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PMA.TipagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipagram.app/Tipagram";
+			};
+			name = Debug;
+		};
+		BF02CE7D2138204A00D5DAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFCBEF257193F6CC4EE19C5E /* Pods-TipagramTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TipagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PMA.TipagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipagram.app/Tipagram";
+			};
+			name = Release;
+		};
+		BF02CE7F2138204A00D5DAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD4A62E2EDD97B8FCCFBAF8 /* Pods-TipagramUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TipagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PMA.TipagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tipagram;
+			};
+			name = Debug;
+		};
+		BF02CE802138204A00D5DAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF885D2C4FCA3B10858C78B /* Pods-TipagramUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TipagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PMA.TipagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tipagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF02CE4B2138204200D5DAEC /* Build configuration list for PBXProject "Tipagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF02CE762138204A00D5DAEC /* Debug */,
+				BF02CE772138204A00D5DAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF02CE782138204A00D5DAEC /* Build configuration list for PBXNativeTarget "Tipagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF02CE792138204A00D5DAEC /* Debug */,
+				BF02CE7A2138204A00D5DAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF02CE7B2138204A00D5DAEC /* Build configuration list for PBXNativeTarget "TipagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF02CE7C2138204A00D5DAEC /* Debug */,
+				BF02CE7D2138204A00D5DAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF02CE7E2138204A00D5DAEC /* Build configuration list for PBXNativeTarget "TipagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF02CE7F2138204A00D5DAEC /* Debug */,
+				BF02CE802138204A00D5DAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF02CE482138204200D5DAEC /* Project object */;
+}
